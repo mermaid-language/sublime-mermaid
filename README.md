@@ -1,8 +1,8 @@
-# Sublime Mermaid
+# Sublime Siren
 
-Sublime mode for Mermaid language.
+Sublime mode for Siren language.
 
 ## Installation
 
-Copy the file `Mermaid.tmLanguage` to a folder called `Mermaid` in Sublime packages directory, then, restart
-Sublime and select `Mermaid` from syntax menu.
+Copy the file `Siren.tmLanguage` to a folder called `Siren` in Sublime packages directory, then, restart
+Sublime and select `Siren` from syntax menu.

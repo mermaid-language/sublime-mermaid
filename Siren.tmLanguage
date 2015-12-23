@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Sublime syntax definition for Mermaid Language.
+  Sublime syntax definition for Siren Language.
   Author: Marcelo Camargo (https://github.com/haskellcamargo)
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -8,10 +8,10 @@
 <dict>
   <key>fileTypes</key>
   <array>
-    <string>maid</string>
+    <string>siren</string>
   </array>
   <key>name</key>
-  <string>Mermaid</string>
+  <string>Siren</string>
   <key>patterns</key>
   <array>
     <dict>
@@ -21,10 +21,10 @@
       <key>match</key>
       <string>//.*$</string>
       <key>name</key>
-      <string>comment.line.number-sign.Mermaid</string>
+      <string>comment.line.number-sign.Siren</string>
     </dict>
     <dict>
-      <!-- Captures multiline mermaid comments -->
+      <!-- Captures multiline siren comments -->
       <key>begin</key>
       <string>\(\*</string>
       <key>beginCaptures</key>
@@ -32,7 +32,7 @@
         <key>0</key>
         <dict>
           <key>name</key>
-          <string>comment.multiline.begin.Mermaid</string>
+          <string>comment.multiline.begin.Siren</string>
         </dict>
       </dict>
       <key>comment</key>
@@ -44,11 +44,11 @@
         <key>0</key>
         <dict>
           <key>name</key>
-          <string>comment.multiline.end.Mermaid</string>
+          <string>comment.multiline.end.Siren</string>
         </dict>
       </dict>
       <key>name</key>
-      <string>comment.Mermaid</string>
+      <string>comment.Siren</string>
     </dict>
     <dict>
       <!-- Captures double-quoted string -->
@@ -59,7 +59,7 @@
         <key>0</key>
         <dict>
           <key>name</key>
-          <string>punctuation.definition.string.begin.Mermaid</string>
+          <string>punctuation.definition.string.begin.Siren</string>
         </dict>
       </dict>
       <key>comment</key>
@@ -71,11 +71,11 @@
         <key>0</key>
         <dict>
           <key>name</key>
-          <string>punctuation.definition.string.end.Mermaid</string>
+          <string>punctuation.definition.string.end.Siren</string>
         </dict>
       </dict>
       <key>name</key>
-      <string>string.Mermaid</string>
+      <string>string.Siren</string>
     </dict>
     <dict>
       <!-- Captures single-quoted string -->
@@ -86,7 +86,7 @@
         <key>0</key>
         <dict>
           <key>name</key>
-          <string>punctuation.definition.string.begin.Mermaid</string>
+          <string>punctuation.definition.string.begin.Siren</string>
         </dict>
       </dict>
       <key>comment</key>
@@ -98,11 +98,11 @@
         <key>0</key>
         <dict>
           <key>name</key>
-          <string>punctuation.definition.string.end.Mermaid</string>
+          <string>punctuation.definition.string.end.Siren</string>
         </dict>
       </dict>
       <key>name</key>
-      <string>string.Mermaid</string>
+      <string>string.Siren</string>
     </dict>
     <dict>
       <key>captures</key>
@@ -110,17 +110,17 @@
         <key>1</key>
         <dict>
           <key>name</key>
-          <string>string.Mermaid</string>
+          <string>string.Siren</string>
         </dict>
         <key>2</key>
         <dict>
           <key>name</key>
-          <string>punctuation.definition.string.begin.Mermaid</string>
+          <string>punctuation.definition.string.begin.Siren</string>
         </dict>
         <key>3</key>
         <dict>
           <key>name</key>
-          <string>string.quoted.other.Mermaid</string>
+          <string>string.quoted.other.Siren</string>
         </dict>
       </dict>
     </dict>
@@ -130,7 +130,7 @@
         <key>1</key>
         <dict>
           <key>name</key>
-          <string>storage.type.function.Mermaid</string>
+          <string>storage.type.function.Siren</string>
         </dict>
       </dict>
       <key>comment</key>
@@ -138,7 +138,7 @@
       <key>match</key>
       <string>(&lt;-?)</string>
       <key>name</key>
-      <string>assign.Mermaid</string>
+      <string>assign.Siren</string>
     </dict>
     <dict>
       <key>comment</key>
@@ -146,7 +146,7 @@
       <key>match</key>
       <string>\w+(-\w)+</string>
       <key>name</key>
-      <string>dashed.variables.Mermaid</string>
+      <string>dashed.variables.Siren</string>
     </dict>
     <dict>
       <key>captures</key>
@@ -154,13 +154,13 @@
         <key>1</key>
         <dict>
           <key>name</key>
-          <string>support.function.method.Mermaid</string>
+          <string>support.function.method.Siren</string>
         </dict>
       </dict>
       <key>match</key>
       <string>\b([a-z][a-zA-Z0-9_\-]*)(\:(\s+|\s?\())\b</string>
       <key>name</key>
-      <string>function.math.Mermaid</string>
+      <string>function.math.Siren</string>
     </dict>
     <dict>
       <key>captures</key>
@@ -168,13 +168,13 @@
         <key>1</key>
         <dict>
           <key>name</key>
-          <string>support.constant.math.Mermaid</string>
+          <string>support.constant.math.Siren</string>
         </dict>
       </dict>
       <key>match</key>
       <string>\bMath\.(E|LN2|LN10|LOG2E|LOG10E|PI|SQRT1_2|SQRT2)\b</string>
       <key>name</key>
-      <string>constants.math.Mermaid</string>
+      <string>constants.math.Siren</string>
     </dict>
     <dict>
       <key>captures</key>
@@ -182,13 +182,13 @@
         <key>1</key>
         <dict>
           <key>name</key>
-          <string>support.function.console.Mermaid</string>
+          <string>support.function.console.Siren</string>
         </dict>
       </dict>
       <key>match</key>
       <string>\bconsole\.(debug|log|dir|errorinfo|log|time|trace|warn)\b</string>
       <key>name</key>
-      <string>console.Mermaid</string>
+      <string>console.Siren</string>
     </dict>
     <dict>
       <key>include</key>
@@ -227,7 +227,7 @@
           <key>match</key>
           <string>\b(do|arguments|const|delete|import( all)?|instanceof|let|def|new|require|typeof(!)?|var|window)\b</string>
           <key>name</key>
-          <string>keyword.Mermaid</string>
+          <string>keyword.Siren</string>
         </dict>
         <dict>
           <key>captures</key>
@@ -235,7 +235,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>keyword.Mermaid</string>
+              <string>keyword.Siren</string>
             </dict>
           </dict>
           <key>comment</key>
@@ -243,7 +243,7 @@
           <key>match</key>
           <string>^\s*:(\w+)</string>
           <key>name</key>
-          <string>label.Mermaid</string>
+          <string>label.Siren</string>
         </dict>
         <dict>
           <key>captures</key>
@@ -251,7 +251,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>keyword.Mermaid</string>
+              <string>keyword.Siren</string>
             </dict>
           </dict>
           <key>comment</key>
@@ -259,31 +259,31 @@
           <key>match</key>
           <string>\b(by|from|til|to|[A-Z][a-z]*)\b</string>
           <key>name</key>
-          <string>range.Mermaid</string>
+          <string>range.Siren</string>
         </dict>
         <dict>
           <key>match</key>
           <string>\b(true|false)\b</string>
           <key>name</key>
-          <string>constant.language.boolean.Mermaid</string>
+          <string>constant.language.boolean.Siren</string>
         </dict>
         <dict>
           <key>match</key>
           <string>@[\w$\-_]*</string>
           <key>name</key>
-          <string>constant.language.Mermaid</string>
+          <string>constant.language.Siren</string>
         </dict>
         <dict>
           <key>match</key>
           <string>\b(module|where|extend|let|with|use|in|using)\b</string>
           <key>name</key>
-          <string>keyword.control.Mermaid</string>
+          <string>keyword.control.Siren</string>
         </dict>
         <dict>
           <key>match</key>
           <string>\b(this|exposing)\b</string>
           <key>name</key>
-          <string>variable.language.Mermaid</string>
+          <string>variable.language.Siren</string>
         </dict>
       </array>
     </dict>
@@ -297,7 +297,7 @@
             <key>6</key>
             <dict>
               <key>name</key>
-              <string>punctuation.definition.string.end.Mermaid</string>
+              <string>punctuation.definition.string.end.Siren</string>
             </dict>
           </dict>
           <key>comment</key>
@@ -305,7 +305,7 @@
           <key>match</key>
           <string>(?&lt;!\w)(\b(\d{1,2}~[\d\w]+)|(\d+[\d_]*(\.[\d_]+)?(e[+-]?[\d_]+)?(\w*))\b)</string>
           <key>name</key>
-          <string>constant.numeric.Mermaid</string>
+          <string>constant.numeric.Siren</string>
         </dict>
         <dict>
           <key>comment</key>
@@ -313,7 +313,7 @@
           <key>match</key>
           <string>Infinity|NaN</string>
           <key>name</key>
-          <string>support.constant.Mermaid</string>
+          <string>support.constant.Siren</string>
         </dict>
       </array>
     </dict>
@@ -327,7 +327,7 @@
             <key>0</key>
             <dict>
               <key>name</key>
-              <string>keyword.operator.Mermaid</string>
+              <string>keyword.operator.Siren</string>
             </dict>
           </dict>
           <key>comment</key>
@@ -335,7 +335,7 @@
           <key>match</key>
           <string>(?&lt;![\.?|&amp;:\+\-\*/%&lt;&gt;^])((\?{1}|\|{2}|&amp;{2})?(=(?!=)|:=|\+{1,2}=|-{1,2}=|\*{1,2}=|/=|%{1,2}=|&lt;\?=|&gt;\?=|\^=))</string>
           <key>name</key>
-          <string>assignment.operators.Mermaid</string>
+          <string>assignment.operators.Siren</string>
         </dict>
         <dict>
           <key>captures</key>
@@ -343,7 +343,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>keyword.operators.Mermaid</string>
+              <string>keyword.operators.Siren</string>
             </dict>
           </dict>
           <key>comment</key>
@@ -351,7 +351,7 @@
           <key>match</key>
           <string>(?&lt;!\.)((={2}|\bis(nt| not)?\b|!=|!?~=|&gt;=\?|&gt;=|&gt;|&lt;=\?|&lt;=|&lt;))</string>
           <key>name</key>
-          <string>relational.operators.Mermaid</string>
+          <string>relational.operators.Siren</string>
         </dict>
         <dict>
           <key>captures</key>
@@ -359,7 +359,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>keyword.operators.Mermaid</string>
+              <string>keyword.operators.Siren</string>
             </dict>
           </dict>
           <key>comment</key>
@@ -367,7 +367,7 @@
           <key>match</key>
           <string>(?&lt;!\.)((\+|-(?!-?&gt;)|\*|/|%|\^|\.&amp;\.|\.\|\.|\.\^\.|\.&gt;{2,3}\.|\.&lt;{2,3}\.|~))</string>
           <key>name</key>
-          <string>numeric.operators.Mermaid</string>
+          <string>numeric.operators.Siren</string>
         </dict>
         <dict>
           <key>captures</key>
@@ -375,7 +375,7 @@
             <key>0</key>
             <dict>
               <key>name</key>
-              <string>keyword.operators.Mermaid</string>
+              <string>keyword.operators.Siren</string>
             </dict>
           </dict>
           <key>comment</key>
@@ -383,13 +383,13 @@
           <key>match</key>
           <string>(?&lt;!\.)((\b(and|or|not|xor)\b)|(\B(\||\&amp;|\!)\B))</string>
           <key>name</key>
-          <string>boolean.operators.Mermaid</string>
+          <string>boolean.operators.Siren</string>
         </dict>
       </array>
     </dict>
   </dict>
   <key>scopeName</key>
-  <string>source.Mermaid</string>
+  <string>source.Siren</string>
   <key>uuid</key>
   <string>3dd79e1c-6cf0-4302-947b-ef00aa5e2a8e</string>
 </dict>
